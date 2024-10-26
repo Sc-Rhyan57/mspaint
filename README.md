@@ -9,7 +9,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Sc-Rhyan57/mspaint/re
 
 **Links**:
 - [🌐 Website](https://mspaint.upio.dev/)
-- [💬 Discord](https://discord.com/invite/cfyMptntHr)
+- [💬 Discord](https://discord.gg/MqAdfVkhuR)
 
 # Addons
 Você pode encontrar documentação sobre como criar um complemento aqui: https://docs.upio.dev/mspaint/addons/getting_startedVocê 
