@@ -1,5 +1,5 @@
-if getgenv().mspaint_loading then print("[mspaint] Loading stopped. (ERROR: Loading)"); return end
-if getgenv().mspaint_loaded then print("[mspaint] Loading stopped. (ERROR: Already loaded)"); return end
+if getgenv().mspaint_loading then print("[mspaint FV] O carregamento foi interrompido. (ERRO: Carregando)"); return end
+if getgenv().mspaint_loaded then print("[mspaint FV] O carregamento foi interrompido. (ERRO: Já carregado)"); return end
 
 getgenv().mspaint_loading = true
 
@@ -126,7 +126,7 @@ require("Utils/GUI/Addons")
 
 shared.Notify:Alert({
     Title = "MSPAINT OUTDATED",
-    Description = "you are using a old version of mspaint that is no longer maintained.\nTo get the new loadstring join the discord!"
+    Description = "😃 Você está usando uma versão modificada do MsPaint!\nMelhor usar essa do que a que tem chave."
 })
 
 getgenv().mspaint_loading = false
