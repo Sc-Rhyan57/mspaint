@@ -17,7 +17,7 @@ end
 
 function UICreator:CreateWindow()
     local Window = shared.Library:CreateWindow({
-        Title = "mspaint v3 | " .. shared.ScriptName,
+        Title = "MsPaint V3.9(F.V) | " .. shared.ScriptName,
         Center = true,
         AutoShow = true,
         Resizable = true,
@@ -42,7 +42,7 @@ function UICreator:CreateWindow()
 
     --// Unload Handler \\--
     shared.Library:OnUnload(function()
-        print("Unloading...")
+        print("Descarregando...")
 
         shared.Fly:Stop()
 
@@ -70,24 +70,27 @@ function UICreator:CreateSettingsTab()
     MenuGroup:AddToggle("ShowCustomCursor", {Text = "Custom Cursor", Default = true, Callback = function(Value) shared.Library.ShowCustomCursor = Value end})
     MenuGroup:AddDivider()
     MenuGroup:AddLabel("Menu bind"):AddKeyPicker("MenuKeybind", { Default = "RightShift", NoUI = true, Text = "Menu keybind" })
-    MenuGroup:AddButton("Join Discord", function()
+    MenuGroup:AddButton("Entrar no Discord", function()
         local Inviter = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
-        Inviter.Join("https://discord.com/invite/cfyMptntHr")
+        Inviter.Join("https://discord.gg/MqAdfVkhuR")
         Inviter.Prompt({
-            name = "mspaint",
-            invite = "https://discord.com/invite/cfyMptntHr",
+            name = "BetterProject",
+            invite = "https://discord.gg/MqAdfVkhuR",
         })
-    end):AddButton("Copy Link", function()
+    end):AddButton("Copiar Link", function()
         if setclipboard then
-            setclipboard("https://discord.com/invite/cfyMptntHr")
-            shared.Library:Notify("Copied discord link to clipboard!")
+            setclipboard("https://discord.gg/MqAdfVkhuR")
+            shared.Library:Notify("Link do Discord copiado para a área de transferência!")
         else
-            shared.Library:Notify("Discord link: https://discord.com/invite/cfyMptntHr", 10)
+            shared.Library:Notify("Discord link: https://dsc.gg/betterstar", 10)
         end
     end)
     MenuGroup:AddButton("Unload", function() shared.Library:Unload() end)
 
-    CreditsGroup:AddLabel("Developers:")
+    CreditsGroup:AddLabel("Novo Dono")
+    CreditsGroup:AddLabel("rhyan57")
+
+    CreditsGroup:AddLabel("Ex Developers:")
     CreditsGroup:AddLabel("upio - owner")
     CreditsGroup:AddLabel("deividcomsono - main script dev")
     CreditsGroup:AddLabel("mstudio45")
