@@ -1,11 +1,10 @@
-# mspaint
-> [!IMPORTANT]
-> This script is now depricated
-
-A decent script hub that is free and open source 🥶
+# mspaint Fã Edition
+> [!IMPORTANTE]
+> Esse script foi **cancelado** e não é o oficial, eu apenas peguei essa versão para mim por que o Upio simplesmente abandonou ela, então agora é minha. 😉👍
+> Um hub de script decente, gratuito e de código aberto 🥶
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sc-Rhyan57/mspaint/refs/heads/main/main.lua"))()
 ```
 
 **Links**:
@@ -13,13 +12,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/
 - [💬 Discord](https://discord.com/invite/cfyMptntHr)
 
 # Addons
-You can find documentation on how to create an addon here: https://docs.upio.dev/mspaint/addons/getting_started
-
+Você pode encontrar documentação sobre como criar um complemento aqui: https://docs.upio.dev/mspaint/addons/getting_startedVocê 
 # Website
 our website is at https://mspaint.upio.dev (source code here at https://github.com/notpoiu/webmspaint)
 
-# Contributing
-Please make sure to follow the [contributor guidelines](CONTRIBUTING.md).
 
 > [!IMPORTANT]
 > This script now uses the [wax bundler](https://github.com/latte-soft/wax) to organize code
