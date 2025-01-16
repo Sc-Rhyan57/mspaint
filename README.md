@@ -1,6 +1,6 @@
 # mspaint Fã Edition
 > ![IMPORTANTE]
-> Esse script foi **cancelado** e não é o oficial, eu apenas peguei essa versão para mim por que o Upio simplesmente abandonou ela, então agora é minha. 😉👍
+> Essa versão do script foi **cancelada** e não é o oficial!
 > Um hub de script decente, gratuito e de código aberto 🥶
 
 ```lua
