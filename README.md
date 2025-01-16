@@ -1,5 +1,6 @@
 # mspaint Fã Edition
 > ![IMPORTANTE]
+> 
 > Essa versão do script foi **cancelada** e não é o oficial!
 > Um hub de script decente, gratuito e de código aberto 🥶
 
