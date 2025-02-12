@@ -1,7 +1,6 @@
 # mspaint Fã Edition
-> [!IMPORTANT]
-> Essa versão do script foi **cancelada** e não é o oficial!
-> Um hub de script decente, gratuito e de código aberto 🥶
+> [!WARNING]
+> Esse não é o mspaint v4, este é o Mspaint v3.8
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sc-Rhyan57/mspaint/refs/heads/main/main.lua"))()
