@@ -1,6 +1,6 @@
 # mspaint Fã Edition
 > [!WARNING]
-> Esse não é o mspaint v4, este é o Mspaint v3.8
+> Esse não é o mspaint v4, este é o Mspaint v3 [ build: 3.8 ]
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sc-Rhyan57/mspaint/refs/heads/main/main.lua"))()
