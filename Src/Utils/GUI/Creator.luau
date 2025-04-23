@@ -17,7 +17,7 @@ end
 
 function UICreator:CreateWindow()
     local Window = shared.Library:CreateWindow({
-        Title = "MsPaint V3.9(F.V) | " .. shared.ScriptName,
+        Title = "MsPaint V3 | " .. shared.ScriptName,
         Center = true,
         AutoShow = true,
         Resizable = true,
@@ -72,25 +72,25 @@ function UICreator:CreateSettingsTab()
     MenuGroup:AddLabel("Menu bind"):AddKeyPicker("MenuKeybind", { Default = "RightShift", NoUI = true, Text = "Menu keybind" })
     MenuGroup:AddButton("Entrar no Discord", function()
         local Inviter = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
-        Inviter.Join("https://discord.gg/MqAdfVkhuR")
+        Inviter.Join("https://discord.gg/nmkRrSNmvy")
         Inviter.Prompt({
-            name = "BetterProject",
-            invite = "https://discord.gg/MqAdfVkhuR",
+            name = "mspaint",
+            invite = "https://discord.gg/nmkRrSNmvy",
         })
     end):AddButton("Copiar Link", function()
         if setclipboard then
-            setclipboard("https://discord.gg/MqAdfVkhuR")
+            setclipboard("https://discord.gg/nmkRrSNmvy")
             shared.Library:Notify("Link do Discord copiado para a área de transferência!")
         else
-            shared.Library:Notify("Discord link: https://dsc.gg/betterstar", 10)
+            shared.Library:Notify("Discord link: https://discord.gg/nmkRrSNmvy", 10)
         end
     end)
     MenuGroup:AddButton("Unload", function() shared.Library:Unload() end)
 
-    CreditsGroup:AddLabel("Novo Dono")
+    CreditsGroup:AddLabel("This version is being maintained by:")
     CreditsGroup:AddLabel("rhyan57")
 
-    CreditsGroup:AddLabel("Ex Developers:")
+    CreditsGroup:AddLabel("Developers:")
     CreditsGroup:AddLabel("upio - owner")
     CreditsGroup:AddLabel("deividcomsono - main script dev")
     CreditsGroup:AddLabel("mstudio45")
@@ -117,7 +117,7 @@ function UICreator:CreateSettingsTab()
         if not shared.Toggles.ExecuteOnTeleport.Value or getgenv().queued_to_teleport then return end
 
         getgenv().queued_to_teleport = true
-        queue_on_teleport([[ loadstring(game:HttpGet("https://github.com/notpoiu/mspaint/releases/latest/download/Script.luau"))() ]])
+        queue_on_teleport([[ loadstring(game:HttpGet("https://github.com/Sc-rhyan57/mspaint/releases/latest/download/Script.luau"))() ]])
     end))
 
     return SettingsTab
