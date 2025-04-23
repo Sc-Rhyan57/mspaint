@@ -125,7 +125,7 @@ UICreator:CreateSettingsTab()
 require("Utils/GUI/Addons")
 
 shared.Notify:Alert({
-    Title = "MSPAINT OUTDATED",
+    Title = "MSPAINT OUTDATED AND FAN VERSION",
     Description = "you are using a old version of mspaint that is no longer maintained.\nTo get the new loadstring join the discord!"
 })
 
