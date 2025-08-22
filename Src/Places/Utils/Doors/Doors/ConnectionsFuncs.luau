@@ -259,7 +259,7 @@ function Script.Functions.SetupCharacterConnection(newCharacter)
         end)
     end
 
-    Script.Collision = shared.Character:WaitForChild("Collision")
+    Script.Collision = shared.Character:WaitForChild("CollisionPart")
     if Script.Collision then
         if Toggles.UpsideDown.Value then
             Script.Collision.Rotation = Vector3.new(Script.Collision.Rotation.X, Script.Collision.Rotation.Y, -90)
