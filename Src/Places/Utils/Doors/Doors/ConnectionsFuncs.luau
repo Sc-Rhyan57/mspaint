@@ -299,6 +299,8 @@ function Script.Functions.SetupCharacterConnection(newCharacter)
         Script.CollisionClone.Massless = true
         Script.CollisionClone.CanQuery = false
         Script.CollisionClone.Name = "CollisionClone"
+        Script.CollisionClone.Parent = shared.Character
+
         if Script.CollisionClone:FindFirstChild("CollisionCrouch") then
             Script.CollisionClone.CollisionCrouch:Destroy()
         end
