@@ -487,7 +487,7 @@ Script.CollisionClone = nil
 Script.Alive = shared.LocalPlayer:GetAttribute("Alive")
 
 --// DOORS Variables \\--
-Script.EntityModules = shared.ReplicatedStorage:WaitForChild("ClientModules"):WaitForChild("EntityModules")
+Script.EntityModules = shared.ReplicatedStorage:WaitForChild("ModulesClient"):WaitForChild("EntityModules")
 
 Script.GameData = shared.ReplicatedStorage:WaitForChild("GameData")
 Script.Floor = Script.GameData:WaitForChild("Floor")
